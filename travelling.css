@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: 'Bitter', serif;
+}
+.main-contain{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../day4/background.jpg);
+    background-size: cover;
+    padding-top: 30px;
+    width: 100vw;
+    height: 90vh;
+}
+.menu li{
+    display: inline-block;
+    list-style-type: none;
+   margin-top: 20px;
+   
+}
+.menu li a{
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.menu li a:hover{
+    background-color: rgb(28, 204, 228);
+}
+h1{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.search{
+    margin-top: 20px;
+}
+.offer{
+    width: 30%;
+    margin-top: -240px;
+    margin-left: 40px;
+    color: #fff;
+    padding: 10px 30px;
+    height: auto;
+   
+}
+.color{
+    color: rgb(37, 233, 216);
+    font-size: 30px;
+    
+}
+.offer h1{
+    margin: 10px 0;
+}
+.offer p{
+    margin-bottom: 15px;
+}
+
+.button{
+  padding: 7px;
+   background-color: rgba(0, 255, 255, 0.747);
+    text-decoration: none;
+    box-shadow: 10px 10px 3px rgb(218, 10, 10);
+}
