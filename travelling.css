@@ -64,11 +64,13 @@ h1{
   margin-bottom: 5px;
    background-color: rgba(0, 255, 255, 0.747);
     text-decoration: none;
-    box-shadow: 10px 10px 3px rgb(49, 29, 228);
+    box-shadow: 5px 5px 0 rgb(191, 12, 214);
+    
 }
 .second{
     display: flex;
-    background-color: #333;
+    background-color: #fff;
+    
     
    
 }
@@ -82,8 +84,35 @@ h1{
 }
 .text{
     text-align: center;
+    color: #333;
+    font-size: 19px;
 }
 .box img{
     width: 100%;
     height: auto;
+}
+
+.third img{
+    width: 100vw;
+    height: 70vh;
+}
+.mid-text{
+    color: #fff;
+    text-align: center;
+    
+    margin: -200px auto;
+    
+    
+}
+.mid-text h1{
+    font-size: 50px;
+}
+.mid-text a{
+    padding: 8px 10px;
+    text-decoration: none;
+    border:1px solid #fff ;
+    
+}
+.mid-text a:hover{
+    background-color: #fff;
 }
